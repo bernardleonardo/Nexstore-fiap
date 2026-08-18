@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <h1>Hello world</h1>
+      <OlaNexstore/>
 
       {textoBotoes.map((texto) => {
         return <Button text={texto}/>
